@@ -1,0 +1,297 @@
+* {
+   /* font-family:'Times New Roman', Times, serif */
+   font-family: 'Lato', sans-serif;
+}
+
+body {
+   display: grid;
+   grid-template-rows: 2rem 40rem 50rem 42rem 50rem 50rem 5rem;
+   grid-template-columns: 100%;
+}
+
+nav {
+   grid-row: 1;
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   width: 90rem;
+   margin: auto;
+   margin-top: 3rem;
+}
+
+nav li {
+   display: inline-block;
+   list-style-type: none;
+   margin: 1rem 1.5rem; 
+}
+
+nav p {
+   font-size: 30pt;
+   margin-top: 1rem;
+   font-family:'Times New Roman', Times, serif;
+   font-style: italic;
+   grid-column: 2;
+}
+
+header {
+   font-size: 14pt;
+   grid-row: 1;
+}
+
+#ez-logo {
+   width: 5rem;
+}
+
+.grid-container {
+   display: grid;
+   grid-template-rows: 7rem;
+   grid-template-columns: 6rem 1fr;
+}
+
+#prof-pic {
+   border-radius: 50%;
+   width: 30rem;
+}
+
+#hero {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   /* align-content: center; */
+   grid-row: 2;
+   text-align: center;
+}
+
+#hero p {
+   font-size: 25pt;
+   width: 50rem;
+   margin-top: -1rem;
+   margin-left: auto;
+   margin-right: auto;
+}  
+
+#hero h1 {
+   font-size: 70pt;
+   font-weight: 700;
+   margin-top: 9%;
+}
+
+#hero em  {
+   font-family:'Times New Roman', Times, serif;
+   font-weight: 100;
+}
+
+#hero span {
+   font-family:'Times New Roman', Times, serif;
+   font-weight: 100;
+}
+
+#hero button {
+   border-radius: 20px;
+   background-color: #033576;
+   width: 15rem;
+   height: 3rem;
+   color: white;
+   margin: auto;
+   font-size: 15pt;
+}
+
+.about {
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 100rem;
+}
+
+.about h1 {
+   font-size: 38pt;
+   text-align: center;
+   margin-bottom: 4rem;
+}
+
+.about p {
+   font-size: 18pt;
+   width: 40rem;
+   line-height: 1.5;
+   text-align: left;
+   margin-bottom: 4rem;
+}
+
+#about {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #033576;
+}
+
+#about em {
+   font-family:'Times New Roman', Times, serif;
+
+}
+
+#software-specs {
+   grid-row: 4;
+}
+
+#software-specs h1{
+   text-align: center;
+   font-size: 36pt;
+   color: #033576;
+   font-family:'Times New Roman', Times, serif;
+}
+
+.specs p {
+   font-size: 20pt;
+}
+
+.spec {
+   max-width: 30rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+
+.spec img {
+   border-bottom: 2px solid #033576;
+}
+
+.specs {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   max-width: 120rem;
+   margin: auto;
+   max-height: 35rem;
+}
+
+#back-end-pic {
+   height: 25rem;
+   width: 25rem;
+}
+
+#full-stack-pic {
+   /* margin-top: 1rem; */
+   height: 25rem;
+   width: 25rem;
+}
+
+#front-end-pic {
+   /* margin-top: 1rem; */
+   height: 25rem;
+   width: 25rem;
+}
+
+#projects {
+   grid-row: 5;
+   background-color: #033576;
+   color: white;
+}
+
+#projects p {
+   font-size: 20pt;
+   text-align: center;
+   width: 30rem;
+   text-align: center;
+   margin: -1rem auto 0 auto;
+   letter-spacing: 1px;
+}
+
+#projects h1 {
+   text-align: center;
+   font-style: italic;
+   font-size: 36pt;
+   font-family:'Times New Roman', Times, serif;
+}
+
+.top {
+   height: 20rem;
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   align-content: space-between;
+   margin-top: 6rem;
+}
+
+.project-gallery {
+   width: 30rem;
+   height: 20rem;
+   margin: auto;
+   line-height: 2.5;
+   font-style: italic;
+   font-weight: 200;
+}
+
+.connect {
+   width: 70rem;
+   height: 45rem;
+   margin: auto;
+}
+
+.connect h1 {
+   font-size: 50pt;
+   width: 60rem;
+   line-height: 2;
+   letter-spacing: 1px;
+   word-spacing: 2px;
+   color: #033576;
+   font-weight: 500;
+   font-family:'Times New Roman', Times, serif;
+   border-bottom: 2px solid #033576;
+}
+
+.connect p {
+   font-size: 32pt;
+}
+
+.connect img {
+   width: 4rem;
+}
+
+.flex-connect {
+   display: flex;
+   justify-content: flex-start;
+   width: 60rem;
+   height: 5rem;
+}
+
+.flex-connect p {
+   font-size: 20pt;
+   height: 2rem;
+}
+
+.flex-connect img {
+   width: 3rem;
+   height: 3rem;
+   margin: auto 1rem auto 2rem;
+}
+
+footer {
+   grid-row: 7
+}
+
+.footer-flex {
+   display: flex;
+   justify-content: space-between;
+   width: 7rem;
+   margin: auto;
+}
+
+.footer-flex img {
+   width: 4rem;
+}
+
+a:link {
+   color: #033576;
+}
+
+a:visited {
+   color: #033576;
+}
+
+a:hover {
+   color: orange;
+}
+
+a:active {
+   color: #033576;
+}
