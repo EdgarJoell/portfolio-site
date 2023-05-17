@@ -321,13 +321,13 @@ a:active {
    color: #033576;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
    html {
-      width: 100%;
+      width: 48rem;
    }
 
    body {
-      width: 100%;
+      width: 48rem;
    }
 
    nav {
@@ -335,7 +335,7 @@ a:active {
       background-color: white;
       display: flex;
       justify-content: space-between;
-      width: 100%;
+      width: 48rem;
       margin: auto;
       margin-top: 3rem;
    }
@@ -410,7 +410,7 @@ a:active {
 
    #software-specs {
       grid-row: 4;
-      width: 100%;
+      width: 48rem;
       margin: auto;
    }
    
@@ -457,7 +457,7 @@ a:active {
    }
 
    #connect {
-      width: 100%;
+      width: 48rem;
       grid-row: 6;
    }
    
@@ -512,19 +512,19 @@ a:active {
    }
 
    #hero {
-      width: 100%;
+      width: 48rem;
    }
 
    #projects {
-      width: 100%;
+      width: 48rem;
    }
 
    #about {
-      width: 100%;
+      width: 48rem;
    }
 
    #connect {
-      width: 100%;
+      width: 48rem;
    }
 }
 
