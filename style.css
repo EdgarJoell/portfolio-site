@@ -3,11 +3,19 @@
    font-family: 'Lato', sans-serif;
 }
 
+html { 
+   width: 90rem;
+   margin: auto;
+}
+
 body {
    display: grid;
-   grid-template-rows: 2rem 40rem 50rem 42rem 50rem 50rem 5rem;
+   grid-template-rows: 5rem 40rem 50rem 42rem 50rem 50rem 5rem;
    grid-template-columns: 100%;
+   width: 90rem;
 }
+
+/* Grid section one */
 
 nav {
    grid-row: 1;
@@ -59,7 +67,9 @@ header {
    justify-content: flex-start;
    /* align-content: center; */
    grid-row: 2;
+   width: 90rem;
    text-align: center;
+   margin: 6rem auto 0 auto;
 }
 
 #hero p {
@@ -73,7 +83,7 @@ header {
 #hero h1 {
    font-size: 70pt;
    font-weight: 700;
-   margin-top: 9%;
+   /* margin-top: 9%; */
 }
 
 #hero em  {
@@ -123,6 +133,10 @@ header {
    justify-content: center;
    align-items: center;
    background-color: #033576;
+   width: 90rem;
+   height: 100%;
+   margin: auto;
+   grid-row: 3;
 }
 
 #about em {
@@ -132,6 +146,8 @@ header {
 
 #software-specs {
    grid-row: 4;
+   width: 90rem;
+   margin: auto;
 }
 
 #software-specs h1{
@@ -185,6 +201,8 @@ header {
    grid-row: 5;
    background-color: #033576;
    color: white;
+   width: 90rem;
+   margin: auto;
 }
 
 #projects p {
@@ -219,6 +237,13 @@ header {
    line-height: 2.5;
    font-style: italic;
    font-weight: 200;
+}
+
+#connect {
+   width: 90rem;
+   margin-left: auto;
+   margin-right: auto;
+   grid-row: 6;
 }
 
 .connect {
