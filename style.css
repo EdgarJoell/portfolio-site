@@ -321,7 +321,7 @@ a:active {
    color: #033576;
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (max-width: 800px) {
    html {
       width: 100%;
    }
@@ -528,7 +528,7 @@ a:active {
    }
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
    html {
       width: 100%;
    }
@@ -733,4 +733,4 @@ a:active {
    #connect {
       width: 48rem;
    }
-}
+} */
