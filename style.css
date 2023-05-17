@@ -3,6 +3,10 @@
    font-family: 'Lato', sans-serif;
 }
 
+:root {
+   font-size: 16px;
+}
+
 /* html { 
    width: 90rem;
    margin: auto;
@@ -317,7 +321,196 @@ a:active {
    color: #033576;
 }
 
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
+   html {
+      width: 100%;
+   }
+
+   body {
+      width: 100%;
+   }
+
+   nav {
+      grid-row: 1;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: auto;
+      margin-top: 3rem;
+   }
+   
+   nav li {
+      display: inline-block;
+      list-style-type: none;
+      margin: 1rem 1.5rem; 
+   }
+
+   #hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      grid-row: 2;
+      width: 90rem;
+      text-align: center;
+      margin: 6rem auto 0 auto;
+   }
+   
+   #hero p {
+      font-size: 20pt;
+      width: 40rem;
+      margin-top: -1rem;
+      margin-left: auto;
+      margin-right: auto;
+   }  
+   
+   #hero h1 {
+      font-size: 70pt;
+      font-weight: 700;
+   }
+   
+   #hero em  {
+      font-family:'Times New Roman', Times, serif;
+      font-weight: 100;
+   }
+   
+   #hero span {
+      font-family:'Times New Roman', Times, serif;
+      font-weight: 100;
+   }
+   
+   #hero button {
+      border-radius: 20px;
+      background-color: #033576;
+      width: 15rem;
+      height: 3rem;
+      color: white;
+      margin: auto;
+      font-size: 15pt;
+   }
+
+   #prof-pic {
+      border-radius: 50%;
+      width: 16rem;
+   }
+   
+   .about h1 {
+      font-size: 30pt;
+      text-align: center;
+      margin-bottom: 4rem;
+   }
+   
+   .about p {
+      font-size: 18pt;
+      width: 20rem;
+      line-height: 1.5;
+      text-align: left;
+      margin-bottom: 4rem;
+   }
+
+   #software-specs {
+      grid-row: 4;
+      width: 100%;
+      margin: auto;
+   }
+   
+   #software-specs h1{
+      text-align: center;
+      font-size: 36pt;
+      color: #033576;
+      font-family:'Times New Roman', Times, serif;
+      margin-bottom: 4rem;
+   }
+   
+   .specs p {
+      font-size: 16pt;
+   }
+   
+   .spec {
+      max-width: 30rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+   }
+   
+   .specs {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      max-width: 35rem;
+      margin: auto;
+      max-height: 45rem;
+   }
+   
+   #back-end-pic {
+      height: 14rem;
+      width: 14rem;
+   }
+   
+   #full-stack-pic {
+      height: 14rem;
+      width: 14rem;
+   }
+   
+   #front-end-pic {
+      height: 14rem;
+      width: 14rem;
+   }
+
+   #connect {
+      width: 100%;
+      grid-row: 6;
+   }
+   
+   .connect {
+      width: 35rem;
+      height: 20rem;
+      margin-left: 1rem;
+   }
+   
+   .connect h1 {
+      font-size: 30pt;
+      width: 35rem;
+      line-height: 2;
+      letter-spacing: 1px;
+      word-spacing: 2px;
+      color: #033576;
+      font-weight: 500;
+      font-family:'Times New Roman', Times, serif;
+      border-bottom: 2px solid #033576;
+   }
+   
+   .connect p {
+      font-size: 16pt;
+   }
+   
+   .connect img {
+      width: 4rem;
+      margin: auto;
+   }
+   
+   .flex-connect {
+      display: flex;
+      justify-content: flex-start;
+      width: 20rem;
+      height: 5rem;
+   }
+   
+   .flex-connect p {
+      font-size: 12pt;
+      height: 2rem;
+      width: 8rem;
+   }
+   
+   .flex-connect img {
+      width: 2rem;
+      height: 2rem;
+      margin: auto 1rem auto 2rem;
+   }
+
+   .grid-container { 
+      width: 3rem;
+   }
+
    #hero {
       width: 100%;
    }
@@ -331,17 +524,17 @@ a:active {
    }
 
    #connect {
-      width: 100px;
+      width: 100%;
    }
-} */
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
    html {
-      width: 48rem;
+      width: 100%;
    }
 
    body {
-      width: 48rem;
+      width: 100%;
    }
 
    nav {
@@ -349,7 +542,7 @@ a:active {
       background-color: white;
       display: flex;
       justify-content: space-between;
-      width: 48rem;
+      width: 100%;
       margin: auto;
       margin-top: 3rem;
    }
