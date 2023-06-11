@@ -2,6 +2,10 @@
 #FFFFFF
 #EBEBEB */
 
+* {
+   font-family: carlito, sans-serif;
+}
+
 /* Header section */
 header {
    display: flex;
@@ -16,7 +20,7 @@ header {
 }
 
 #logo-name {
-   font-family: radley;
+   font-family: radley, sans-serif;
    font-style: italic;
    margin-left: 0.5rem;
    font-weight: lighter;
@@ -46,3 +50,40 @@ li {
 }
 
 /* Hero Section */
+#hero {
+   width: 100%;
+   height: 37rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#edgar-video {
+   width: 65rem;
+   height: 23rem;
+}
+
+#hero-wording {
+   margin-top: -7rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.hero-p {
+   font-size: 27pt;
+   width: 65rem;
+   text-align: center;
+}
+
+#btn-to-about {
+   width: 15rem;
+   height: 4rem;
+   background-color: #033576;
+   color: white;
+   border-radius: 30px;
+   font-size: x-large;
+   margin: auto;
+}
