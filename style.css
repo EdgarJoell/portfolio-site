@@ -82,8 +82,10 @@ li {
 
 .hero-p {
    font-size: 27pt;
-   width: 65rem;
+   max-width: 65rem;
+   min-width: 20rem;
    text-align: center;
+   margin-top: 3rem;
 }
 
 #btn-to-about {
@@ -123,9 +125,90 @@ li {
 .about-p {
    font-size: 18pt;
    font-weight: 100;
-   width: 60rem;
+   max-width: 65rem;
+   min-width: 20rem;   
    text-align: center;
    margin-top: -2rem;
    font-weight: 200;
    line-height: 1.4;
+}
+
+/* Projects Section */
+#projects {
+   width: 100%;
+   height: 150rem;
+}
+
+#projects-board {
+   width: 70rem;
+   height: 55rem;
+   border-radius: 90px;
+   margin: -9rem auto auto auto;
+   background-color: #EBEBEB;
+   z-index: 3;
+}
+
+.grid-images {
+   width: 18rem;
+   height: 20rem;
+}
+
+#first-row {
+   width: 100%;
+   height: 20rem;
+   z-index: 5;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#second-row {
+   width: 100%;
+   height: 15rem;
+   border-top: 5px solid white;
+   border-bottom: 5px solid white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#third-row {
+   width: 100%;
+   height: 20rem;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.projects-board-p {
+   max-width: 55rem;
+   min-width: 15rem;
+   height: 13rem;
+   text-align: center;
+   font-size: 19pt;
+   margin: auto;
+}
+
+.blocks {
+   width: 23.3rem;
+   height: 20rem;
+}
+
+.block-headers {
+   text-align: center;
+   font-size: 22pt;
+   font-family: radley, sans-serif;
+   font-weight: lighter;
+}
+
+.block-p {
+   text-align: center;
+   font-size: 19pt;
+}
+
+.neg-margin { 
+   margin-top: -1.75rem;
+}
+
+#middle-block {
+   border-left: 5px solid white;
+   border-right: 5px solid white;
 }
